@@ -119,7 +119,7 @@ ConvoAI
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Shaurya2607/ConvoAI.git
+git clone https://github.com/Shaurya2607/ConvoAI-RealTimeChatApp.git
 ```
 
 ```

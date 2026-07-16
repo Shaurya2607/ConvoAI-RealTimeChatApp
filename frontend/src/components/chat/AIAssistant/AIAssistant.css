@@ -1,0 +1,111 @@
+.ai-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.45);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+}
+
+.ai-modal {
+  width: 600px;
+  max-width: 90%;
+
+  background: white;
+
+  border-radius: 15px;
+
+  padding: 25px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.ai-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  border: none;
+  background: none;
+
+  cursor: pointer;
+
+  font-size: 20px;
+}
+
+.ai-modal textarea {
+  width: 100%;
+  height: 140px;
+
+  resize: none;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  border: 1px solid #ccc;
+
+  font-size: 15px;
+}
+
+.ask-btn {
+  margin-top: 15px;
+
+  width: 100%;
+
+  border: none;
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  background: #2563eb;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 16px;
+
+  font-weight: 600;
+}
+
+.ask-btn:hover {
+  background: #1d4ed8;
+}
+
+.ask-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.ai-response {
+  margin-top: 20px;
+
+  background: #f7f7f7;
+
+  border-radius: 10px;
+
+  padding: 15px;
+
+  max-height: 300px;
+
+  overflow-y: auto;
+}
+
+.ai-response h4 {
+  margin-bottom: 10px;
+}
+
+.ai-response p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}

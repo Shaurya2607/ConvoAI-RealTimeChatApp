@@ -1,0 +1,15 @@
+.custom-card {
+  width: 100%;
+  max-width: 430px;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    padding: 30px 20px;
+    margin: 15px;
+  }
+}

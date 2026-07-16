@@ -1,0 +1,41 @@
+.custom-btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  font-weight: 600;
+  transition: var(--transition);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.primary:hover {
+  background: var(--primary-hover);
+}
+
+.secondary {
+  background: var(--secondary);
+  color: var(--text);
+}
+
+.secondary:hover {
+  opacity: .9;
+}
+
+.danger {
+  background: var(--danger);
+  color: white;
+}
+
+.custom-btn:disabled {
+  cursor: not-allowed;
+  opacity: .7;
+}

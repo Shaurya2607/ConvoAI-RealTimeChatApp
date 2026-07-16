@@ -1,0 +1,17 @@
+.logo-container {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.logo-container h1 {
+  color: var(--primary);
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.logo-container p {
+  color: var(--gray);
+  font-size: 15px;
+  margin: 0;
+}

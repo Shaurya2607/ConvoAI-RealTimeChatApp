@@ -1,0 +1,38 @@
+.home {
+  height: 100vh;
+  width: 100%;
+
+  background: var(--background);
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.home-body {
+  flex: 1;
+
+  display: grid;
+
+  grid-template-columns: 320px 1fr;
+
+  overflow: hidden;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .home-body {
+    grid-template-columns: 280px 1fr;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .home-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
